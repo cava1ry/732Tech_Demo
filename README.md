@@ -33,7 +33,7 @@ $ cd <project-folder>
 
 ### ☕ 2. Required Tools
 
-Make sure you have the following installed:
+Make sure you have the following installed to your computer:
 - **Node.js** (v18+ recommended)
 - **npm** (comes with Node.js)
 
@@ -68,10 +68,10 @@ npm install
 In `todo-backend/`, create a `.env` file with your MongoDB URI:
 
 ```bash
-MONGODB_URI=your_mongodb_connection_string
+MONGODB_URI=mongodb_connection_string
 ```
 
-> If using MongoDB Atlas, the connection string looks like:
+> We are using MongoDB Atlas as database, the connection string already commited to Assignment - Private info / API key / etc submission, which looks like:
 > `mongodb+srv://<user>:<password>@cluster0.mongodb.net/todoapp?retryWrites=true&w=majority`
 
 #### Step 4: Start the backend
@@ -106,11 +106,11 @@ npm run dev
 
 You will see:
 ```
-VITE v4.x.x  ready in ...
+VITE vx.x.x  ready in ...
 Local: http://localhost:5173/
 ```
 
-Visit [http://localhost:5173](http://localhost:5173) to see the app in action.
+Then visit [http://localhost:5173](http://localhost:5173) to see the app in action.
 
 ---
 
@@ -143,11 +143,6 @@ Visit [http://localhost:5173](http://localhost:5173) to see the app in action.
 
 ---
 
-## 📄 License
-
-This project is submitted as a course assignment. You may reuse the code for educational purposes. Credit appreciated :)
-
----
 
 ## ☑️ That's it!
 Now you can create your own colorful, animated task list.
