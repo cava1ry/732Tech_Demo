@@ -39,19 +39,26 @@ Make sure you have the following installed to your computer:
 
 ---
 
-### 📂 3. Folder Structure Overview
+###  3. Folder Structure Overview
 
 ```
-project-root/
-├── todo-frontend/     # Vue.js front-end
-├── todo-backend/      # Express + MongoDB backend
+project/
+├── public/             # Public assets
+├── src/                # Vue components + assets
+├── todo-backend/       # Express + MongoDB backend
+├── todo-frontend/      # (empty placeholder folder for submission requirements)
+├── .env                # MongoDB credentials (not pushed)
 ├── .gitignore
 ├── README.md
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
 ```
 
 ---
 
-### ⚙️ 4. Backend Setup
+###  4. Backend Setup
 
 #### Step 1: Navigate to backend folder
 ```bash
