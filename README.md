@@ -46,8 +46,7 @@ project/
 ├── public/             # Public assets
 ├── src/                # Vue components + assets
 ├── todo-backend/       # Express + MongoDB backend
-├── todo-frontend/      # (empty placeholder folder for submission requirements)
-├── .env                # MongoDB credentials (not pushed)
+├── todo-frontend/      # (empty folder with .gitkeep for submission requirements)
 ├── .gitignore
 ├── README.md
 ├── index.html
@@ -72,7 +71,7 @@ npm install
 
 #### Step 3: Create `.env` file
 
-In `todo-backend/`, create a `.env` file with your MongoDB URI:
+In `todo-backend/`, create a `.env` file with MongoDB URI(make sure there is no carriage return at the end of the line, and no spaces around the equals sign.):
 
 ```bash
 MONGODB_URI=mongodb_connection_string
@@ -152,7 +151,4 @@ Then visit [http://localhost:5173](http://localhost:5173) to see the app in acti
 
 
 ## ☑️ That's it!
-Now you can create your own colorful, animated task list.
-
-Happy hacking! 🚀
 
