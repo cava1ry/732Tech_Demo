@@ -1,4 +1,4 @@
-# Todo List Web App
+# Todo List Web App ✨
 
 A visually appealing and fully functional **Todo List** web app with the following features:
 - Add / delete / search tasks
@@ -11,28 +11,27 @@ A visually appealing and fully functional **Todo List** web app with the followi
 
 ---
 
-## Preview
+## ✨ Preview
 
-> A Notion-style UI with colorful themes, bounce effects, and interactions.
+> A Notion-style UI with colorful themes, bounce effects, and delightful interactions.
 
 ---
 
-## Setup Instructions
+## 🔧 Setup Instructions
 
-### 1. Clone the Repository
+### ✈ 1. Clone the Repository
 
-
-#### Use Git to clone the project
+```bash
+# Use Git to clone the project
 $ git clone <your-github-repo-url>
 
-#### Navigate to the project directory
----
-
+# Navigate to the project directory
 $ cd <project-folder>
+```
 
 ---
 
-### 2. Required Tools
+### ☕ 2. Required Tools
 
 Make sure you have the following installed:
 - **Node.js** (v18+ recommended)
@@ -40,7 +39,7 @@ Make sure you have the following installed:
 
 ---
 
-### 3. Folder Structure Overview
+### 📂 3. Folder Structure Overview
 
 ```
 project-root/
@@ -52,10 +51,10 @@ project-root/
 
 ---
 
-### 4. Backend Setup
+### ⚙️ 4. Backend Setup
 
 #### Step 1: Navigate to backend folder
-
+```bash
 cd todo-backend
 ```
 
@@ -88,7 +87,7 @@ You should see:
 
 ---
 
-### 5. Frontend Setup
+### 🚀 5. Frontend Setup
 
 #### Step 1: Navigate to frontend folder
 ```bash
@@ -115,20 +114,20 @@ Visit [http://localhost:5173](http://localhost:5173) to see the app in action.
 
 ---
 
-## Features
+## 📚 Features
 
-- **Add task**: Type in task title, click **"Add to List"**
-- **Deadline**: Optionally edit deadline in the note section
-- **Edit notes**: Click a task to edit note and deadline
-- **Delete**: Remove a task
-- **Filter**: View all / completed / incomplete
-- **Celebration**: Completing a task launches confetti
-- **Due soon warning**: Red highlight if due in 3 days
-- **Dark mode**: Toggle light/dark theme
+- ✅ **Add task**: Type in task title, click **"Add to List"**
+- ⌚ **Deadline**: Optionally edit deadline in the note section
+- ✎ **Edit notes**: Click a task to edit note and deadline
+- ❌ **Delete**: Remove a task
+- ✂ **Filter**: View all / completed / incomplete
+- ✨ **Celebration**: Completing a task launches confetti
+- 🕷️ **Due soon warning**: Red highlight if due in 3 days
+- 🌜 **Dark mode**: Toggle light/dark theme
 
 ---
 
-## Notes
+## 💡 Notes
 
 - All animations and confetti are **purely local** and do not require internet
 - Font used: [Poppins](https://fonts.google.com/specimen/Poppins)
@@ -136,7 +135,7 @@ Visit [http://localhost:5173](http://localhost:5173) to see the app in action.
 
 ---
 
-## Troubleshooting
+## ⚠️ Troubleshooting
 
 - **MongoDB error**: Ensure `.env` is correctly created and cluster is accessible
 - **Port in use**: Make sure port 3000 (backend) and 5173 (frontend) are free
@@ -144,13 +143,14 @@ Visit [http://localhost:5173](http://localhost:5173) to see the app in action.
 
 ---
 
-## License
+## 📄 License
 
 This project is submitted as a course assignment. You may reuse the code for educational purposes. Credit appreciated :)
 
 ---
 
-## That's it!
-Now you can see a colorful, animated task list.
+## ☑️ That's it!
+Now you can create your own colorful, animated task list.
 
+Happy hacking! 🚀
 
